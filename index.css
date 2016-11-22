@@ -1,0 +1,41 @@
+/* 1024*708 */
+
+*{padding: 0;margin:0;line-height: none;}
+body{background: url(img/aa.png);background-size: 100%;}
+.scene{
+	width: 750px;height: 600px;margin-top:20px;margin-left:320px;position: relative;}
+.pai{
+    height: 130px;
+	width: 90px;
+  	background-size:100%;			
+	opacity: 0;text-shadow:1px 1px 1px #000;
+	position: absolute;top:0;left: 300px; border-radius:4px;
+	}
+
+.move-right{position: absolute;
+	left:50%;
+	margin-left: -50px;
+	top:540px;
+	background-size: 100%;
+	background-image:url(img/c.png);
+     width: 100px;
+    height: 30px;z-index: 100;
+   }
+
+    .move-left{position: absolute;
+	left:50%;
+	margin-left: -50px;
+	top:490px;z-index: 100;
+	text-align: center;
+	line-height:30px;
+	background:url(img/d.png);background-size: 100%;
+     width: 100px;
+    height: 30px;
+    border-radius:20px;}
+
+    .start{position: absolute;top:210px;left: 50px;width: 200px;height: 70px;background: url(img/a.png);background-size:100%; }
+    .cxstart{position: absolute;top:290px;left: 50px;width: 200px;height: 70px;background: url(img/e.png);background-size:100%; }
+    .shuoming{position:absolute;top:370px;left: 50px;width: 200px;height: 70px;background: url(img/b.png);background-size:100%; }
+    
+
+
